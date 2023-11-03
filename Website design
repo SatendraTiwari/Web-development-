@@ -1,0 +1,138 @@
+# Web-development-
+Website design 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>exercise 4</title>
+  <style>
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT, Calibri,'Trebuchet MS", sans-serif;
+    
+  }
+    .nev{
+      border:;
+      height:230px;
+      width:;
+      background:#9D04FFA6;
+    }
+    
+    .logoname{
+      display: flex;
+    }
+    .logoname img{
+      height: 170px;
+      padding-top: 4px;
+      margin:2px;
+    }
+    
+    .pbox{
+      display:flex;
+      background: gray;
+      height:1000px;
+      margin:10px 15px 2px 15px; 
+      /*margin:T R B L;*/
+    }
+    
+    .box{
+      display:flex;
+      background:white;
+      height:500px;
+      width:250px;
+      padding-left: 250px;
+      margin-left: 20px;
+      margin-top: 20px;
+      
+    }
+    .box2{
+      margin-right:20px;
+      
+    }
+    
+    .obox{
+      margin-left:120px;
+      margin-right: 120px;
+      background: orange;
+      border-radius: 30px;
+      height:150px;
+      widows: 440; 
+      text-align: center;
+      margin-top:0px;
+      
+    }
+    
+    
+    h2{
+       
+      font-size:150px;
+      
+    }
+    ::selection{
+      color: green;
+      background: black;
+    }
+    
+    .foter{
+      height:150px;
+      background: orange;
+      padding-top:20px;
+      margin-top: 450px;
+      text-align: center;
+    }
+    .foter span{
+      
+     margin-top:250px;
+     font-size-adjust:bottom;
+    }
+    h1{
+      margin-top:75px;
+      font-size: 79px;
+    }
+    
+    .sticker{
+      position:fixed;
+      position: left;
+      margin-left:800px;
+      height: 150px;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="nev">
+      <div class="logoname">
+        
+      
+      <img srcset="ashokchakre.png" src="ashokchakre.png" alt="ashokchakre.png">
+      <h1>MJTfect09</h1>
+      </div>
+    </div>
+    <div class="pbox">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+    </div>
+    <div class="obox">
+        <h2>WELCOME</h2>
+    </div>
+        <div class="sticker">
+      <img height="150" src="ashokchakre.png" alt="ashokchakre.png">
+     
+    </div>
+    <div class="foter">
+      <span>
+      Copyright &copy;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MJTfect09
+      </span>
+    </div>
+
+    
+  </div>
+</body>
+
+</html>
